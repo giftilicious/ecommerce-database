@@ -24,7 +24,7 @@ router.get('/:id', (req, res) => {
       include: [{ model: Product }],
     });
     if (!categoryData) {
-      res.status(404).json({ message: 'No product with that ID'});
+      res.status(404).json({ message: 'No category with that ID' });
     }
   } catch (err) {
     res.status(500).json(err);
@@ -45,6 +45,7 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
+  // note to self: double-check/test that res.status(200).json(categoryData) makes sense where it is
   try {
     const categoryData = await Category.update(req.body, {
       where: {
