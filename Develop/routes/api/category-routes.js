@@ -16,7 +16,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-
 router.get('/:id', (req, res) => {
   Category.findOne({
     where: {
@@ -27,8 +26,6 @@ router.get('/:id', (req, res) => {
     .then((category) => res.json(category))
     .catch((err) => res.status(400).json(err));
 });
-
-
 
 router.post('/', async (req, res) => {
   // create a new category
@@ -51,7 +48,7 @@ router.put('/:id', async (req, res) => {
       },
     });
     if (!categoryData[0]) {
-      res.status(404).json({ message: 'No category with this ID'});
+      res.status(404).json({ message: 'No category with this ID' });
     }
     res.status(200).json(categoryData);
   } catch (err) {
