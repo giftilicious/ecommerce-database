@@ -12,9 +12,16 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a935bce5c584002ce74bb88e7b1a9d8b4186b772
 To view a demonstration of the application, please click on the links below:
 
 Part 1: https://watch.screencastify.com/v/vmpcQji32lCRhDgGm6nO
 
+<<<<<<< HEAD
 Part 2: https://watch.screencastify.com/v/V0sIY2vxHKiBYCjJqhOg
+=======
+Part 2: https://watch.screencastify.com/v/V0sIY2vxHKiBYCjJqhOg
+>>>>>>> a935bce5c584002ce74bb88e7b1a9d8b4186b772
