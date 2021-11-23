@@ -18,5 +18,3 @@ Part 1: https://watch.screencastify.com/v/vmpcQji32lCRhDgGm6nO
 
 Part 2: https://watch.screencastify.com/v/V0sIY2vxHKiBYCjJqhOg
 
-Part 2: https://watch.screencastify.com/v/V0sIY2vxHKiBYCjJqhOg
-
